@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Ignore node_modules in mobile-app
+/mobile-app/node_modules
+
+# Ignore build artifacts in mobile-app
+/mobile-app/build
+
+# Miscellaneous
+.DS_Store
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
